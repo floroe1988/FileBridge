@@ -1,0 +1,27 @@
+[project]
+name = "FileBridge"
+description = "A Python project for file management and bridging operations."
+version = "0.1.0"
+authors = [
+    { name = "floroe1988" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.pylint.'MASTER']
+ignore = ["venv"]
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = [
+    "missing-module-docstring",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "too-few-public-methods"
+]
+
+[tool.coverage.run]
+omit = [
+    "src/pages/synchronization/view/*",
+    "src/pages/configuration/view/*",
+    "src/pages/documentation/view/*"
+]

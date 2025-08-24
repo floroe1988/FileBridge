@@ -1,0 +1,4 @@
+
+folder_config:
+  input_folder: "./data"
+  output_folder: "./output"

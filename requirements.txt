@@ -1,0 +1,13 @@
+# app-dependencies
+streamlit
+pydantic
+pyyaml
+
+# test-dependencies
+black
+pylint
+pytest
+pytest-cov
+mypy
+types-PYYAML
+radon
